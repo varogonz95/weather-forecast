@@ -1,0 +1,88 @@
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+**/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+.ltcbin
+tunnel.log
+/package.json
+/package-lock.json
+**/.gitignore
+**/.dockerignore
+.editorconfig
+.gitattributes
+.prettierignore
+.stylelintrc
+**/favicon.ico
+**/.npmignore
+**/browserslist
+**/.gitkeep
+**/Dockerfile
+**/*.sh
+docker/*
+rxjs/*
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# e2e
+**/protractor.conf.js
+**/protractor.*.conf.js
+**/e2e/*.js
+**/e2e/*.map
+**/e2e/screenshots/actual
+**/e2e/screenshots/diff
+**/e2e/screenshots/reports
+**/e2e/downloads
+
+# Integration testing
+**/integration/screenshots
+**/*.snap
+
+# Code Gen
+libs/**/_generated/*
+
+# Assets
+libs/common-ui/src/assets/fonts
+libs/common-ui/src/assets/images
+libs/common-ui/src/assets/references
+
+# Images and Docs
+**/*.xlf
+**/*.svg
+**/*.png
+**/*.csv
+**/*.jpg
+**/*.jpeg
+**/*.pdf
+**/*.xlsx
